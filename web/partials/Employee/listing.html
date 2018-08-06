@@ -1,0 +1,11 @@
+﻿<a href="#!Create">Create</a>
+<div ng-controller="EmployeeListingCtrl">
+    Employee Listing
+    
+    <ul >
+        <li ng-repeat="employee in employees">
+            <a href="#!{{employee.id}}">{{employee.firstName}} {{employee.lastName}}</a>
+        </li>
+    </ul>
+
+</div>

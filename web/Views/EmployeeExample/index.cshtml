@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "index";
+}
+
+<h2>index</h2>
+
+<div ng-app="EmployeeApp">
+    <div ng-view class="view-animate"></div>
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/employee");
+}
